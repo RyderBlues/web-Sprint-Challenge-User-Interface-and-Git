@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -144,3 +145,142 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* My Work */
+
+
+.blackBar {
+    height:20px;
+    background-color: black;
+    margin-bottom:20px;
+}
+
+
+.container1 nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3%;
+    margin-right:5%;
+}
+
+.container1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerImage {
+    width: 75%;
+    margin-bottom: 2%;
+}
+
+.headerNav a, .headerNav a:hover, .headerNav a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.boxes .box:nth-of-type(1) {
+    background-color: teal;
+}
+
+.boxes .box:nth-of-type(2) {
+    background-color: gold;
+}
+
+.boxes .box:nth-of-type(3) {
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-of-type(4) {
+    background-color: coral;
+}
+
+.boxes .box:nth-of-type(5) {
+    background-color: crimson;
+}
+
+.boxes .box:nth-of-type(6) {
+    background-color: forestgreen;
+}
+
+.boxes .box:nth-of-type(7) {
+    background-color: darkorchid;
+}
+.boxes .box:nth-of-type(8) {
+    background-color: hotpink;
+}
+
+.boxes .box:nth-of-type(9) {
+    background-color: indigo;
+}
+
+.boxes .box:nth-of-type(10) {
+    background-color: dodgerblue;
+}
+
+/* About Page */
+
+.aboutHeader {
+    margin-top: 2%;
+}
+
+h2 {
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.about-page {
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.innerContainer {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dashed black;
+    padding-bottom: 2.5%;
+}
+
+.container2 {
+    margin-top: 4.5%;
+    display:flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+button {
+    border: 3px solid black;
+    border-radius: 8px;
+    margin-right: 60%;
+    margin-top: 5%;
+    background-color: white;
+    padding: 7px 7px 6px 7px;
+    font-weight: bold;
+}
+
+.aboutP {
+    border-bottom: 2px dashed black;
+    padding-bottom: 2%;
+}
+
+.container3 {
+    width: 100%;
+}
+
+.container3 div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.6% 4% 2.5%;
+}
+
+
